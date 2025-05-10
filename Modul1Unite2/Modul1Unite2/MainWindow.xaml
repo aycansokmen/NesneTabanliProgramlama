@@ -9,14 +9,14 @@
     <Grid>
         <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="153,218,0,0" TextWrapping="Wrap" Text="1. Sayı girişi" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="TextBox2" TextWrapping="Wrap" Text="2. Sayı girişi" Width="120" Margin="152,281,528,134"/>
-        <TextBox x:Name="TextBox3" TextWrapping="Wrap" Text="Sonuç kutusu" Width="120" Margin="341,310,339,104" IsReadOnly="True"/>
+        <TextBox x:Name="TextBox3" TextWrapping="Wrap" Text="Sonuç kutusu" Width="120" Margin="147,320,533,94" IsReadOnly="True"/>
         <Label x:Name="Label1" Content="1. Sayı" HorizontalAlignment="Left" Margin="90,214,0,0" VerticalAlignment="Top" Width="113" Cursor=""/>
         <Label x:Name="Label2" Content="2. Sayı" HorizontalAlignment="Left" Margin="86,279,0,0" VerticalAlignment="Top" Width="54"/>
-        <Label x:Name="Label3" Content="Sonuç" HorizontalAlignment="Left" Margin="320,284,0,0" VerticalAlignment="Top" Width="117"/>
-        <Button x:Name="Topla" Content="Topla" HorizontalAlignment="Left" Margin="329,210,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Çıkar" Content="Çıkar" HorizontalAlignment="Left" Margin="388,210,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Çarp" Content="Çarp" HorizontalAlignment="Left" Margin="454,210,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="Böl" Content="Böl" HorizontalAlignment="Left" Margin="512,210,0,0" VerticalAlignment="Top" Width="32"/>
+        <Label x:Name="Label3" Content="Sonuç" HorizontalAlignment="Left" Margin="83,314,0,0" VerticalAlignment="Top" Width="55"/>
+        <Button x:Name="Topla" Content="Topla" HorizontalAlignment="Left" Margin="329,210,0,0" VerticalAlignment="Top" Click="Topla_Click_1"/>
+        <Button x:Name="Çıkar" Content="Çıkar" HorizontalAlignment="Left" Margin="388,210,0,0" VerticalAlignment="Top" Click="Çıkar_Click"/>
+        <Button x:Name="Çarp" Content="Çarp" HorizontalAlignment="Left" Margin="454,210,0,0" VerticalAlignment="Top" Click="Çarp_Click"/>
+        <Button x:Name="Böl" Content="Böl" HorizontalAlignment="Left" Margin="512,210,0,0" VerticalAlignment="Top" Width="32" Click="Böl_Click"/>
 
     </Grid>
 </Window>

@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace Modul1Unite2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -25,35 +23,48 @@ namespace Modul1Unite2
             InitializeComponent();
         }
 
-        private void Topla_Click(object sender, RoutedEventArgs e)
+        private void Topla_Click_1(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            TextBox3.Text = (sayi1 + sayi2).ToString();
+            //double sayi1 = Convert.ToDouble(TextBox1.Text);
+            //double sayi2 = Convert.ToDouble(TextBox2.Text);
+            //TextBox3.Text = (sayi1 + sayi2).ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a + b).ToString();
         }
 
-        private void Cikar_Click(object sender, RoutedEventArgs e)
+        private void Çıkar_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            TextBox3.Text = (sayi1 - sayi2).ToString();
+            //double sayi1 = Convert.ToDouble(TextBox1.Text);
+            //double sayi2 = Convert.ToDouble(TextBox2.Text);
+            //TextBox3.Text = (sayi1 - sayi2).ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a - b).ToString();
         }
 
-        private void Carp_Click(object sender, RoutedEventArgs e)
+        private void Çarp_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            TextBox3.Text = (sayi1 * sayi2).ToString();
+            //double sayi1 = Convert.ToDouble(TextBox1.Text);
+            //double sayi2 = Convert.ToDouble(TextBox2.Text);
+            //TextBox3.Text = (sayi1 * sayi2).ToString();
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a * b).ToString();
         }
 
-        private void Bol_Click(object sender, RoutedEventArgs e)
+        private void Böl_Click(object sender, RoutedEventArgs e)
         {
-            double sayi1 = Convert.ToDouble(TextBox1.Text);
-            double sayi2 = Convert.ToDouble(TextBox2.Text);
-            if (sayi2 != 0)
-                TextBox3.Text = (sayi1 / sayi2).ToString();
-            else
-                MessageBox.Show("Sıfıra bölme hatası!");
+            //double sayi1 = Convert.ToDouble(TextBox1.Text);
+            //double sayi2 = Convert.ToDouble(TextBox2.Text);
+            //if (sayi2 != 0)
+            //    TextBox3.Text = (sayi1 / sayi2).ToString();
+            //else
+            //    MessageBox.Show("Sıfıra bölme hatası!");
+            int a = Int16.Parse(TextBox1.Text);
+            int b = Int16.Parse(TextBox2.Text);
+            TextBox3.Text = (a / b).ToString();
+
         }
     }
 }
