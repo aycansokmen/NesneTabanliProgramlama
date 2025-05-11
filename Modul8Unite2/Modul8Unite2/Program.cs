@@ -31,7 +31,6 @@ namespace Modul8Unite2
             Console.WriteLine("Program sona erdi.");
         }
 
-        // Bu metot ürün eklemeyi yönetir
         static void UrunProgramCalistir()
         {
             Sepet sepet = new Sepet();
@@ -61,7 +60,6 @@ namespace Modul8Unite2
             }
         }
 
-        // Bu metot makineyi çalıştırır
         static void MakineProgramCalistir()
         {
             Makine makine = new Makine();

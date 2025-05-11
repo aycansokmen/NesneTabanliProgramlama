@@ -15,12 +15,12 @@ namespace Modul8Unite2
         {
             while (true)
             {
-                int sicaklik = rnd.Next(900, 1101); // 900-1100 derece
+                int sicaklik = rnd.Next(900, 1101); 
                 Console.WriteLine("Sıcaklık: " + sicaklik + " °C");
 
                 if (sicaklik > 1000)
                 {
-                    SicaklikAsildi?.Invoke(this, EventArgs.Empty); // Olay fırlat
+                    SicaklikAsildi?.Invoke(this, EventArgs.Empty); 
                     break;
                 }
 

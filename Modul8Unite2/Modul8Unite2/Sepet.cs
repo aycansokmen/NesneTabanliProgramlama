@@ -9,12 +9,12 @@ namespace Modul8Unite2
     internal class Sepet
     {
         public List<Urun> Urunler = new List<Urun>();
-        public event EventHandler UrunEklendi; // Olay tanımı
+        public event EventHandler UrunEklendi; 
 
         public void Ekle(Urun urun)
         {
             Urunler.Add(urun);
-            UrunEklendi?.Invoke(this, EventArgs.Empty); // Olayı tetikle
+            UrunEklendi?.Invoke(this, EventArgs.Empty); 
         }
 
         public double ToplamTutar()
